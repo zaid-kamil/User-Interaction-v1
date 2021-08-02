@@ -10,14 +10,13 @@ import androidx.constraintlayout.widget.ConstraintLayout
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var output: ConstraintLayout
-    lateinit var editPerson: EditText
-    lateinit var editEmail: EditText
-    lateinit var editPhone: EditText
-    lateinit var textPerson: TextView
-    lateinit var textPhone: TextView
-    lateinit var textEmail: TextView
-
+    private lateinit var output: ConstraintLayout
+    private lateinit var editPerson: EditText
+    private lateinit var editEmail: EditText
+    private lateinit var editPhone: EditText
+    private lateinit var textPerson: TextView
+    private lateinit var textPhone: TextView
+    private lateinit var textEmail: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
